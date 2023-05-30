@@ -1,0 +1,47 @@
+.taskItemContainer{
+  display:flex;
+  justify-content: space-between;
+}
+
+.taskItem > button{
+  margin-right: 0.5rem;
+}
+
+.status{
+  margin-bottom:1.1rem !important;
+}
+
+.arrowBtn{
+  display:flex;
+  align-items: center;
+  border:none;
+  box-shadow: none;
+  padding: 10px;
+}
+
+.arrowBtnLeft{
+  margin-right:20px;
+}
+
+.arrowBtnRight{
+  margin-left:20px;
+}
+
+@media only screen and (max-width:960px) {
+  .status{
+    font-size:13px !important;
+    margin:10px 0px !important;
+  }
+
+  .arrowBtnLeft{
+  margin-right:5px;
+}
+
+.arrowBtnRight{
+  margin-left:5px;
+}
+
+}
+
+
+

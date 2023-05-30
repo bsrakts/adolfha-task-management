@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root{
+  --font-normal:'Open Sans', sans-serif;
+  --font-extreme:'Poppins', sans-serif;
+}
+
+.app{
+  padding:1.3rem 2rem;
+  font-family: var(--font-extreme);
+}
+
+@media only screen and (max-width:960px){
+  .app{
+    padding:0;
+  }
+}
+
