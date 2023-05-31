@@ -1,38 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Task Management Application
+
+Welcome to the Task Management Application! This application is designed to help users manage their tasks effectively. It allows users to create new tasks, edit existing tasks, and mark completed tasks. The application utilizes React, Next.js, Redux Toolkit, Ant Design, and LocalStorage to provide a seamless user experience.
+
+![Screenshot](/public/assets/screenshots/screenshot.png)
+
+## Features
+
+- User-friendly interface for creating and managing tasks.
+- Ability to add new tasks, edit task details, and mark tasks as completed.
+- Efficient state management using Redux Toolkit, ensuring smooth performance.
+- Responsive design with Ant Design components, providing a consistent and visually appealing UI.
+- Data persistence through LocalStorage, allowing users to store their task data locally.
+
+## Technologies Used
+
+- React.js: A popular JavaScript library for building user interfaces.
+- Next.js: A framework for server-rendered React applications.
+- Redux Toolkit: A library for efficient Redux state management.
+- Ant Design: A UI library with a set of customizable components.
+- LocalStorage: A web API for storing data locally within the user's browser.
 
 ## Getting Started
 
-First, run the development server:
+To run the Task Management Application locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Clone the repository: `git clone https://github.com/bsrakts/adolfha-task-management.git`
+2. Navigate to the project directory: `cd adolfha-task-management`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm run dev`
+5. Open your browser and visit `http://localhost:3000`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Feedback and Contributions
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Feedback and contributions are welcome! If you encounter any issues or have suggestions for improvement, please feel free to submit an issue or a pull request. Your feedback will be greatly appreciated.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Contact
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+If you have any job opportunities, collaboration requests, or general inquiries, please feel free to reach out to me via email at [dev.busraaktas@gmail.com](dev.busraaktas@gmail.com). I would be happy to connect with you.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for your interest in the Adolfha Task Management! I hope you find it useful and informative.
